@@ -62,7 +62,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "dist";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -78,7 +78,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nvar numeral = __webpack_require__(/*! numeral */ \"./node_modules/numeral/numeral.js\");\n\nconsole.log(\"hi\");\nconsole.log(moment(\"20150428\", \"YYYYMMDD\").fromNow());\n\n\nconsole.log(numeral('3.467TB'));\n\n//# sourceURL=webpack:///./index.js?");
+"use strict";
+eval("\n\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nvar numeral = __webpack_require__(/*! numeral */ \"./node_modules/numeral/numeral.js\");\n\nconsole.log(\"hi\");\nconsole.log(moment(\"20150428\", \"YYYYMMDD\").fromNow());\n\nconsole.log(numeral('3.467TB'));\n\nvar name = \"John\";\nvar birthday = \"April 24\";\n\nconsole.log(name + '\\'s birthday is ' + birthday);\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
