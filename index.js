@@ -7,6 +7,6 @@ console.log(moment("20150428", "YYYYMMDD").fromNow());
 console.log(numeral('3.467TB'));
 
 var name = "John";
-var birthday = "April 24";
+var birthday = "tomorrow";
 
 console.log(`${name}'s birthday is ${birthday}`);
